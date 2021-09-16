@@ -1,0 +1,52 @@
+{
+    "upcoming":[
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        }
+    ],
+    "learning_programs":[
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        },
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        },
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        }
+    ],
+    "bootcamps":[
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        }
+    ],
+    "community_events":[
+        {
+            "id": 1,
+            "date" : "12/09/2021",
+            "title" : "Intro to TinkerHub",
+            "description" : "blablabla",
+            "more_info" : "olkka"
+        }
+    ]
+}
