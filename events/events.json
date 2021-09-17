@@ -11,13 +11,6 @@
             "more_info" : "#"
         },
         {
-            "image": "event_2.jpg",
-            "date" : "25/05/2021",
-            "title" : "Build From Home",
-            "description" : "Build From Home aka BFH was the very first program that we participated in TinkerHub Community. It longed for about 10 days. 5 teams participated from our community and 4 projects was accepted. ",
-            "more_info" : "#"
-        },
-        {
             "image": "event_3.jpeg",
             "date" : "04/06/2021",
             "title" : "Build From Home Experience Sharing",
@@ -30,13 +23,6 @@
             "title" : "Git/GitHub Workshop",
             "description" : "From this workshop we aimed to give a brief idea on what Git and GitHub is and how it works",
             "more_info" : "https://youtu.be/4grkROK0Mro"
-        },
-        {
-            "image": "SHN_WIN.jpeg",
-            "date" : "24/07/2021",
-            "title" : "Saturday Hack Night",
-            "description" : "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
-            "more_info" : "#"
         },
         {
             "image": "event_9.jpeg",
@@ -52,13 +38,6 @@
             "description" : "A small event to introduce mon.school platform to our community, also to give an introduction to the course Joy of programming and a bridge for TinkerHub's code-a-pookkalam event",
             "more_info" : "#"
         },
-        {
-            "image": "event_11.jpeg",
-            "date" : "13/08/2021",
-            "title" : "Code-A-Pookalam",
-            "description" : "Code-A-Pookalam is an upcoming event in TinkerHub in collaboration with Mon School. Mon School is a not-for-profit online platform for learning programming. More details of the program is yet to come. But the idea is we need to code and create a pookalam using the Joy library created by Mon School.",
-            "more_info" : "#"
-        }, 
         {
             "image": "event_13.jpeg",
             "date" : "29/08/2021",
@@ -79,7 +58,7 @@
             "image": "event_6.png",
             "date" : "14/05/2021",
             "title" : "Python KickStart",
-            "description" : "Python Kickstart was our first major series conducted. This program lasted for about 1 month.",
+            "description" : "Python Kickstart was our first major series conducted. Main agenda of this program was to introduce python programming for absolute beginners This program lasted for about 1 month.",
             "more_info" : "https://www.youtube.com/playlist?list=PLMcXnpz61pA7AzRC7x_u7aBIj4EIFOT7z"
         },
         {
@@ -124,6 +103,36 @@
             "date" : "12/09/2021",
             "title" : "Tech Tips E02",
             "description" : "E02 was conducted by Adil Ayyoob. Some simple tips and tricks which will make our smartphone usage much easier.",
+            "more_info" : "#"
+        }
+    ],
+    "achievements":[
+        {
+            "image": "event_11.jpeg",
+            "date" : "13/08/2021",
+            "title" : "Code-A-Pookalam",
+            "description" : "Code-A-Pookalam is an upcoming event in TinkerHub in collaboration with Mon School. Mon School is a not-for-profit online platform for learning programming. More details of the program is yet to come. But the idea is we need to code and create a pookalam using the Joy library created by Mon School.",
+            "more_info" : "#"
+        },
+        {
+            "image": "SHN_WIN_1.jpeg",
+            "date" : "24/07/2021",
+            "title" : "Saturday Hack Night #1",
+            "description" : "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
+            "more_info" : "#"
+        },
+        {
+            "image": "event_2.jpg",
+            "date" : "25/05/2021",
+            "title" : "Build From Home",
+            "description" : "Build From Home aka BFH was the very first program that we participated in TinkerHub Community. It longed for about 10 days. 5 teams participated from our community and 4 projects was accepted. ",
+            "more_info" : "#"
+        },
+        {
+            "image": "SHN_WIN_2.png",
+            "date" : "24/07/2021",
+            "title" : "Saturday Hack Night #2",
+            "description" : "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
             "more_info" : "#"
         }
     ]
