@@ -36,7 +36,7 @@ function loadEvents(events_string, container, type) {
             ` : '';
             const eventCard = `
             <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="bg-gray-100 p-6 rounded-lg">
+              <div class="flex flex-col bg-gray-100 p-6 rounded-lg h-full justify-between">
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="events/assets/${event.image}" alt="content">
                 <h3 class="tracking-widest text-yellow-500 text-xs font-medium title-font">${event.date}</h3>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4">${event.title}</h2>
