@@ -25,7 +25,7 @@ function loadEvents(events_string, container, type) {
         container.innerHTML = '';
         events[type].forEach((event) => {
             const more_info = (event.more_info) ? `
-            <a href="${event.more_info}">
+            <a href="${event.more_info}" target="_blank">
                 <div class="flex justify-end text-yellow-500">
                 <span>More Info</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
