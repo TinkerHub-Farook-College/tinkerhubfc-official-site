@@ -51,6 +51,13 @@
             "title" : "Project Orientation",
             "description" : "This is an orientation session for students who are going to do their project. This session aims to give a proper idea on what technologies they can use for their project",
             "more_info" : "https://youtu.be/X5naSxtFT10"
+        },
+        {
+            "image": "event_17.jpeg",
+            "date" : "19/09/2021",
+            "title" : "Introduction to Linkedin",
+            "description" : "The idea of this session was to give a basic idea about LinkedIn and how it will be useful for our career. This session was handled by Kavya P (Outreach Co-Lead, TinkerHub FC)",
+            "more_info" : "https://www.youtube.com/watch?v=fk3h85p29Ec"
         }
     ],
     "bootcamps":[
@@ -74,6 +81,20 @@
             "title" : "Introduction to UI/UX",
             "description" : "This session is mainly intended to give a breif idea on the UI/UX and also to introduce the members of our community to the imperceptible possibilities in the UI/UX field. This session was handled by Finu Muhammed Shaheem (KMCT Campus Lead | Microsoft student ambassador)",
             "more_info" : "https://youtu.be/3Ih09S6G2Zg"
+        },
+        {
+            "image": "event_18.png",
+            "date" : "18/09/2021",
+            "title" : "Essentials - Getting Started || ES-00",
+            "description" : "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. This session was a stepping stone for the upcoming sessions. Today we started off by giving a basic idea on web development and its components.",
+            "more_info" : "https://www.youtube.com/watch?v=v4ejq0iejEw"
+        },
+        {
+            "image": "event_19.png",
+            "date" : "20/09/2021",
+            "title" : "Essentials - Introduction To HTML || ES-01",
+            "description" : "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to HTML.",
+            "more_info" : "https://youtu.be/-gh6rSVYueg"
         }
     ],
     "community_events":[
