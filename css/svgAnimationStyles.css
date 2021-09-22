@@ -1,0 +1,125 @@
+/* This file containes code of animating the intro svg by Adil ayyoob */
+
+/* girl animation */
+
+#headGirl{
+    animation: headGirlMove 2s infinite alternate;
+    transform-origin: bottom;
+    transform-box:fill-box;
+	animation-timing-function: linear;
+}
+
+@keyframes headGirlMove{
+    0%{
+        transform: rotateZ(-10deg);
+    }
+
+    100%{
+        transform: rotateZ(10deg);
+    }
+}
+
+#leftHandGirl{
+    animation: leftHandGirlMove 0.4s infinite alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes leftHandGirlMove{
+    0%{
+        transform: translateY(0px)
+    }
+
+    100%{
+        transform:  translateY(15px)
+    }
+}
+
+/* laptop animation */
+
+#laptop{
+    animation: leftHandGirlMove 0.5s infinite alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes laptopMove{
+    0%{
+        transform: translateY(0px)
+    }
+
+    100%{
+        transform:  translateY(10px)
+    }
+}
+
+/* paper animation */
+
+#paperYellowOne, #paperYellowTwo, #paperGreyOne, #paperGreyTwo, #paperPinkOne{
+    animation: paperYellowOneMove 1s infinite alternate;
+	animation-timing-function: linear;
+}
+
+ @keyframes paperYellowOneMove{
+    0%{
+        transform: translateY(0px)
+    }
+
+    100%{
+        transform: translateY(100px);
+    } 
+} 
+
+/* boy animation */
+
+#head{
+    animation: headMove 2s infinite alternate;
+    transform-origin: bottom;
+    transform-box:fill-box;
+	animation-timing-function: linear;
+}
+
+@keyframes headMove{
+    0%{
+        transform: rotateZ(-10deg);
+    }
+
+    100%{
+        transform: rotateZ(10deg);
+    }
+}
+
+#rightHandBoy{
+    animation: rightHandBoyMove 2s infinite alternate;
+    transform-origin: top;
+    transform-box:fill-box;
+	animation-timing-function: linear;
+}
+
+@keyframes rightHandBoyMove{
+    0%{
+        transform: rotateZ(-10deg);
+    }
+
+    100%{
+        transform: rotateZ(10deg);
+    }
+}
+
+#leftHandBoy{
+    animation: leftHandBoyMove 2s infinite alternate;
+    transform-origin: top;
+    transform-box:fill-box;
+	animation-timing-function: linear;
+}
+
+@keyframes leftHandBoyMove{
+    0%{
+        transform: rotateZ(-5deg);
+    }
+
+    100%{
+        transform: rotateZ(5deg);
+    }
+}
+
+
+
