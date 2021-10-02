@@ -1,31 +1,33 @@
 // const upcomingEventsContainer = document.querySelector('#upcoming-events');
-const learningProgramsContainer = document.querySelector('#learning-programs');
-const bootCampsContainer = document.querySelector('#bootcamps'); 
-const communityEventsContainer = document.querySelector('#community-events'); 
-const achievementsContainer = document.querySelector('#achievements'); 
+const learningProgramsContainer = document.querySelector("#learning-programs");
+const bootCampsContainer = document.querySelector("#bootcamps");
+const communityEventsContainer = document.querySelector("#community-events");
+const achievementsContainer = document.querySelector("#achievements");
 
 function setLoading(container) {
-    container.innerHTML = '<div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5"></div>';
+  container.innerHTML =
+    '<div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5"></div>';
 }
 
 function fetchEvents(callback) {
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'events/events.json', true);
-    xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == "200") {
-            callback(xobj.responseText);
-          }
-    };
-    xobj.send(null);
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open("GET", "events/events.json", true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == "200") {
+      callback(xobj.responseText);
+    }
+  };
+  xobj.send(null);
 }
 
 function loadEvents(events_string, container, type) {
-    const events = JSON.parse(events_string);
-    if(events) {
-        container.innerHTML = '';
-        events[type].forEach((event) => {
-            const more_info = (event.more_info) ? `
+  const events = JSON.parse(events_string);
+  if (events) {
+    container.innerHTML = "";
+    events[type].forEach((event) => {
+      const more_info = event.more_info
+        ? `
             <a href="${event.more_info}" target="_blank">
                 <div class="flex justify-end text-yellow-500">
                 <span>More Info</span>
@@ -34,8 +36,9 @@ function loadEvents(events_string, container, type) {
                 </svg>
                 </div>
             </a>
-            ` : '';
-            const eventCard = `
+            `
+        : "";
+      const eventCard = `
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="flex flex-col justify-between bg-gray-100 p-6 rounded-lg h-full wow fadeInUp">
                 <div>
@@ -51,15 +54,15 @@ function loadEvents(events_string, container, type) {
               </div>
             </div>
             `;
-            container.innerHTML += eventCard;
-        });
-    }
+      container.innerHTML += eventCard;
+    });
+  }
 }
 
-fetchEvents((event_string)=>{
-    // loadEvents(event_string, upcomingEventsContainer, 'upcoming');
-    loadEvents(event_string, learningProgramsContainer, 'learning_programs');
-    loadEvents(event_string, bootCampsContainer, 'bootcamps');
-    loadEvents(event_string, communityEventsContainer, 'community_events');
-    loadEvents(event_string, achievementsContainer, 'achievements');
+fetchEvents((event_string) => {
+  // loadEvents(event_string, upcomingEventsContainer, 'upcoming');
+  loadEvents(event_string, learningProgramsContainer, "learning_programs");
+  loadEvents(event_string, bootCampsContainer, "bootcamps");
+  loadEvents(event_string, communityEventsContainer, "community_events");
+  loadEvents(event_string, achievementsContainer, "achievements");
 });
