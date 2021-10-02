@@ -1,241 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.min.css" />
   <link rel="stylesheet" href="css/tailwind.min.css" />
   <link href="css/animate.min.css" rel="stylesheet">
   <title>TinkerHub Farook College</title>
 </head>
 
 <body>
-  <header class="text-gray-600 body-font border-b-2 border-collapse">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="img/logo.png" alt="TFC Logo" class="w-40 text-white p-2 wow flipInX">
-      </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html">Home</a>
-        <a class="mr-5 hover:text-gray-900 wow flipInX bg-yellow-300 px-5 py-2 rounded-2xl text-black" data-wow-delay="0.25s">Events</a>
-        <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html#about">About Us</a>
-        <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html#contact">Contact Us</a>
-      </nav>
-      <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button> -->
-    </div>
-  </header>
-
-  <!-- <div class="max-w-2xl mt-10 mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
-          <img class="object-cover w-full h-64" src="events/hero.png" alt="Article">
-
-          <div class="p-6">
-              <div>
-                  <span class="text-xs font-medium text-yellow-600 uppercase dark:text-blue-400">Latest Event</span>
-                  <a href="#" class="block mt-2 text-2xl font-semibold text-gray-800 dark:text-white hover:text-gray-600 hover:underline">The Essentials</a>
-                  <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie parturient et sem ipsum volutpat vel. Natoque sem et aliquam mauris egestas quam volutpat viverra. In pretium nec senectus erat. Et malesuada lobortis.</p>
-                  <a class="text-yellow-500 inline-flex items-center mt-2 md:mb-2 lg:mb-0">Register Now
-                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
-                </div>
-
-              <div class="mt-4">
-                  <div class="flex items-center">
-                      <div class="flex items-center">
-                          <img class="object-cover h-10 rounded-full" src="img/execom/Rijfas.jpg" alt="Avatar">
-                          <a href="#" class="mx-2 font-semibold text-gray-700 dark:text-gray-200">Rijfas</a>
-                      </div>
-                      <span class="mx-1 text-xs text-gray-600 dark:text-gray-300">21 SEP 2015</span>
-                  </div>
-              </div>
-          </div>
-      </div> -->
-
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap w-full mb-20 wow fadeInLeft">
-        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Upcoming Events</h1>
-          <div class="h-1 w-20 bg-yellow-500 rounded"></div>
-        </div>
-        <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+  <div class="preloader">
+    <svg class="w-40" viewBox="0 0 544 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g id="image 1" clip-path="url(#clip0)">
+      <g id="Group">
+      <g id="logo">
+      <g id="tinkerhub-logo">
+      <g id="Group_2">
+      <path id="Vector" d="M181.442 60.6976V12.1248H164.482V1.99359H210.734V12.1248H193.73V60.6976H181.442Z" fill="black"/>
+      </g>
+      <g id="Group_3">
+      <path id="Vector_2" d="M214.885 6.1408C214.885 2.6016 217.733 0 221.23 0C224.728 0 227.576 2.6016 227.576 6.1408C227.576 9.6 224.728 12.2848 221.23 12.2848C217.733 12.2848 214.885 9.6 214.885 6.1408ZM215.291 17.0848H227.17V60.6944H215.291V17.0848Z" fill="black"/>
+      </g>
+      <g id="Group_4">
+      <path id="Vector_3" d="M235.061 17.088H246.533V24.9408H246.776C249.256 19.3664 253.691 16.4384 260.405 16.4384C270.085 16.4384 275.538 22.5376 275.538 32.7584V60.7072H263.659V35.232C263.659 29.536 261.013 26.272 255.605 26.272C250.197 26.272 246.939 30.176 246.939 35.872V60.688H235.061V17.088Z" fill="black"/>
+      </g>
+      <g id="Group_5">
+      <path id="Vector_4" d="M310.203 17.088H323.669L307.029 35.8016L324.478 60.6976H310.811L298.331 42.96L295.24 46.2976V60.6976H283.362V1.99359H295.24V34.5792H295.403L310.203 17.088Z" fill="black"/>
+      </g>
+      <g id="Group_6">
+      <path id="Vector_5" d="M365.65 47.3536C364.347 55.856 356.456 61.472 345.755 61.472C332.411 61.472 324.277 52.9696 324.277 39.0976C324.277 25.2256 332.453 16.3136 345.307 16.3136C357.96 16.3136 366.014 24.736 366.014 37.9968V41.6192H335.954V42.352C335.954 48.4928 339.979 52.6848 345.96 52.6848C350.232 52.6848 353.64 50.6496 354.747 47.3536H365.65ZM336.075 34.3328H354.584C354.341 28.7616 350.68 25.0976 345.432 25.0976C340.264 25.1008 336.482 28.8928 336.075 34.3328Z" fill="black"/>
+      </g>
+      <g id="Group_7">
+      <path id="Vector_6" d="M372.117 17.088H383.589V24.9408H383.835C385.339 19.5296 389.083 16.56 394.206 16.56C395.349 16.5323 396.489 16.6835 397.586 17.008V27.4624C396.626 27.056 394.981 26.7712 393.272 26.7712C387.413 26.7712 383.992 30.3488 383.992 36.4928V60.6976H372.114L372.117 17.088Z" fill="black"/>
+      </g>
+      <g id="Group_8">
+      <path id="Vector_7" d="M443.797 60.6976V33.9712H411.579V60.6976H404.258V1.99359H411.579V27.3792H443.797V1.99359H451.122V60.6976H443.797Z" fill="black"/>
+      </g>
+      <g id="Group_9">
+      <path id="Vector_8" d="M496.155 60.6976H489.435V53.6576H489.282C486.68 58.5792 482.366 61.1008 475.842 61.1008C466.606 61.1008 461.198 55.12 461.198 45.52V18.3904H468.277V44.2528C468.277 51.1296 471.477 54.8128 478.04 54.8128C484.914 54.8128 489.064 50.096 489.064 42.896V18.3904H496.142L496.155 60.6976Z" fill="black"/>
+      </g>
+      <g id="Group_10">
+      <path id="Vector_9" d="M512.59 53.5328H512.427V60.6912H505.675V1.99359H512.754V25.264H512.917C515.56 20.6272 520.482 17.984 526.462 17.984C537.122 17.984 544.322 26.624 544.322 39.5424C544.322 52.4608 537.122 61.104 526.341 61.104C520.158 61.104 515.317 58.4192 512.59 53.5328ZM512.712 39.536C512.712 48.6496 517.675 54.832 524.958 54.832C532.242 54.832 537.08 48.8544 537.08 39.536C537.08 30.2176 532.28 24.24 524.958 24.24C517.637 24.24 512.712 30.4704 512.712 39.5424V39.536Z" fill="black"/>
+      </g>
+      </g>
+      <g id="cyan">
+      <path id="Vector_10" d="M63.6464 0.00320435H4.11359C1.84259 0.00320435 0.00158691 1.84421 0.00158691 4.1152V22.9952C0.00158691 25.2662 1.84259 27.1072 4.11359 27.1072H63.6464C65.9174 27.1072 67.7584 25.2662 67.7584 22.9952V4.1152C67.7584 1.84421 65.9174 0.00320435 63.6464 0.00320435Z" fill="#05BFCE"/>
+      </g>
+      <g id="yellow">
+      <path id="Vector_11" d="M104.301 40.656H4.112C1.84101 40.656 0 42.497 0 44.768V63.648C0 65.919 1.84101 67.76 4.112 67.76H104.301C106.572 67.76 108.413 65.919 108.413 63.648V44.768C108.413 42.497 106.572 40.656 104.301 40.656Z" fill="#FFCD10"/>
+      </g>
+      <g id="light-green">
+      <path id="Vector_12" d="M70.4112 81.312H58.3216C56.0506 81.312 54.2096 83.153 54.2096 85.424V104.304C54.2096 106.575 56.0506 108.416 58.3216 108.416H70.4112C72.6822 108.416 74.5232 106.575 74.5232 104.304V85.424C74.5232 83.153 72.6822 81.312 70.4112 81.312Z" fill="#95BF15"/>
+      </g>
+      <g id="red">
+      <path id="Vector_13" d="M36.4896 81.7008H4.35199C2.08099 81.7008 0.23999 83.5418 0.23999 85.8128V104.19C0.23999 106.461 2.08099 108.302 4.35199 108.302H36.4896C38.7606 108.302 40.6016 106.461 40.6016 104.19V85.8128C40.6016 83.5418 38.7606 81.7008 36.4896 81.7008Z" fill="#EE1700"/>
+      </g>
+      <g id="dark-green">
+      <path id="Vector_14" d="M104.304 81.312H92.576C90.305 81.312 88.464 83.153 88.464 85.424V104.304C88.464 106.575 90.305 108.416 92.576 108.416H104.304C106.575 108.416 108.416 106.575 108.416 104.304V85.424C108.416 83.153 106.575 81.312 104.304 81.312Z" fill="#205B67"/>
+      </g>
+      <g id="blue">
+      <path id="Vector_15" d="M104.302 0.00320435H85.4224C83.1514 0.00320435 81.3104 1.84421 81.3104 4.1152V22.9952C81.3104 25.2662 83.1514 27.1072 85.4224 27.1072H104.302C106.573 27.1072 108.414 25.2662 108.414 22.9952V4.1152C108.414 1.84421 106.573 0.00320435 104.302 0.00320435Z" fill="#0060FF"/>
+      </g>
+      <g id="campus-name">
+      <path id="fc-name" d="M171.728 111.541H168.407V82.9861H184.325V85.9353H171.728V96.3846H183.564V99.3338H171.728V111.541ZM201.298 85.5447C198.16 85.5447 195.68 86.5929 193.857 88.6892C192.047 90.7726 191.142 93.6306 191.142 97.2635C191.142 101 192.014 103.891 193.759 105.935C195.517 107.967 198.017 108.982 201.259 108.982C203.251 108.982 205.523 108.624 208.075 107.908V110.818C206.096 111.56 203.655 111.931 200.751 111.931C196.545 111.931 193.297 110.655 191.005 108.103C188.726 105.551 187.587 101.925 187.587 97.2244C187.587 94.2817 188.134 91.7036 189.228 89.49C190.334 87.2765 191.923 85.5707 193.993 84.3728C196.077 83.1749 198.525 82.576 201.337 82.576C204.332 82.576 206.949 83.1228 209.189 84.2166L207.782 87.0681C205.621 86.0525 203.459 85.5447 201.298 85.5447ZM245.321 111.541H241.415L231.005 97.6931L228.017 100.349V111.541H224.696V82.9861H228.017V97.1463L240.966 82.9861H244.892L233.407 95.3885L245.321 111.541ZM267.255 100.818C267.255 104.308 266.376 107.036 264.618 109.002C262.861 110.955 260.432 111.931 257.333 111.931C255.419 111.931 253.72 111.482 252.236 110.584C250.751 109.685 249.605 108.396 248.798 106.717C247.991 105.037 247.587 103.071 247.587 100.818C247.587 97.3286 248.459 94.6137 250.204 92.6736C251.949 90.7205 254.371 89.7439 257.47 89.7439C260.465 89.7439 262.841 90.74 264.599 92.7322C266.37 94.7244 267.255 97.4197 267.255 100.818ZM250.946 100.818C250.946 103.553 251.493 105.636 252.587 107.068C253.681 108.5 255.289 109.217 257.411 109.217C259.534 109.217 261.142 108.507 262.236 107.088C263.342 105.655 263.896 103.566 263.896 100.818C263.896 98.0968 263.342 96.033 262.236 94.6267C261.142 93.2075 259.521 92.4978 257.372 92.4978C255.25 92.4978 253.648 93.1944 252.568 94.5877C251.487 95.9809 250.946 98.0577 250.946 100.818ZM286.65 111.541H271.122V109.334L282.802 92.6541H271.845V90.1346H286.357V92.6541L274.833 109.021H286.65V111.541ZM306.318 111.541V97.6931C306.318 95.9484 305.92 94.6463 305.126 93.7869C304.332 92.9275 303.088 92.4978 301.396 92.4978C299.143 92.4978 297.496 93.1098 296.454 94.3338C295.426 95.5577 294.911 97.5629 294.911 100.349V111.541H291.669V81.1502H294.911V90.3494C294.911 91.4562 294.859 92.3741 294.755 93.1033H294.95C295.588 92.0747 296.493 91.2674 297.665 90.6814C298.85 90.0825 300.198 89.783 301.708 89.783C304.325 89.783 306.285 90.408 307.587 91.658C308.902 92.895 309.56 94.8676 309.56 97.576V111.541H306.318ZM319.482 111.541H316.239V90.1346H319.482V111.541ZM315.966 84.3338C315.966 83.5916 316.148 83.0512 316.513 82.7127C316.877 82.3611 317.333 82.1853 317.88 82.1853C318.401 82.1853 318.85 82.3611 319.228 82.7127C319.605 83.0642 319.794 83.6046 319.794 84.3338C319.794 85.0629 319.605 85.6098 319.228 85.9744C318.85 86.326 318.401 86.5017 317.88 86.5017C317.333 86.5017 316.877 86.326 316.513 85.9744C316.148 85.6098 315.966 85.0629 315.966 84.3338ZM329.56 100.584C330.12 99.7895 330.972 98.7478 332.118 97.4588L339.032 90.1346H342.88L334.208 99.2556L343.486 111.541H339.56L332.001 101.424L329.56 103.533V111.541H326.357V81.1502H329.56V97.2635C329.56 97.9796 329.508 99.0864 329.403 100.584H329.56ZM365.849 100.818C365.849 104.308 364.97 107.036 363.212 109.002C361.454 110.955 359.026 111.931 355.927 111.931C354.013 111.931 352.314 111.482 350.829 110.584C349.345 109.685 348.199 108.396 347.392 106.717C346.584 105.037 346.181 103.071 346.181 100.818C346.181 97.3286 347.053 94.6137 348.798 92.6736C350.543 90.7205 352.965 89.7439 356.064 89.7439C359.058 89.7439 361.435 90.74 363.193 92.7322C364.963 94.7244 365.849 97.4197 365.849 100.818ZM349.54 100.818C349.54 103.553 350.087 105.636 351.181 107.068C352.275 108.5 353.883 109.217 356.005 109.217C358.127 109.217 359.736 108.507 360.829 107.088C361.936 105.655 362.489 103.566 362.489 100.818C362.489 98.0968 361.936 96.033 360.829 94.6267C359.736 93.2075 358.114 92.4978 355.966 92.4978C353.844 92.4978 352.242 93.1944 351.161 94.5877C350.081 95.9809 349.54 98.0577 349.54 100.818ZM386.122 108.67H385.946C384.449 110.844 382.209 111.931 379.228 111.931C376.428 111.931 374.247 110.974 372.685 109.06C371.135 107.146 370.361 104.425 370.361 100.896C370.361 97.3676 371.142 94.6267 372.704 92.6736C374.267 90.7205 376.441 89.7439 379.228 89.7439C382.131 89.7439 384.358 90.7986 385.907 92.908H386.161L386.025 91.365L385.946 89.8611V81.1502H389.189V111.541H386.552L386.122 108.67ZM379.638 109.217C381.851 109.217 383.453 108.618 384.443 107.42C385.445 106.209 385.946 104.262 385.946 101.58V100.896C385.946 97.8624 385.439 95.701 384.423 94.4119C383.42 93.1098 381.812 92.4588 379.599 92.4588C377.698 92.4588 376.239 93.201 375.224 94.6853C374.221 96.1567 373.72 98.24 373.72 100.935C373.72 103.67 374.221 105.734 375.224 107.127C376.226 108.52 377.698 109.217 379.638 109.217ZM405.126 111.931C401.962 111.931 399.462 110.968 397.626 109.041C395.803 107.114 394.892 104.438 394.892 101.013C394.892 97.5629 395.738 94.8221 397.431 92.7908C399.137 90.7596 401.422 89.7439 404.286 89.7439C406.969 89.7439 409.091 90.6293 410.653 92.4002C412.216 94.158 412.997 96.4822 412.997 99.3728V101.424H398.251C398.316 103.937 398.948 105.844 400.146 107.146C401.357 108.448 403.056 109.099 405.243 109.099C407.548 109.099 409.827 108.618 412.079 107.654V110.545C410.933 111.039 409.846 111.391 408.818 111.599C407.802 111.821 406.571 111.931 405.126 111.931ZM404.247 92.4588C402.528 92.4588 401.155 93.0187 400.126 94.1385C399.111 95.2582 398.512 96.8077 398.329 98.7869H409.521C409.521 96.7426 409.065 95.1801 408.153 94.0994C407.242 93.0056 405.94 92.4588 404.247 92.4588Z" fill="black"/>
+      </g>
+      </g>
+      </g>
+      </g>
+      <defs>
+      <clipPath id="clip0">
+      <rect width="544" height="112" fill="white"/>
+      </clipPath>
+      </defs>
+      </svg>
+      <div class="flex justify-center mt-5"><img src="img/loading.gif" alt="loading" class="w-5 h-5"></div>
+  </div>
+  <main class="hidden">
+    <header class="text-gray-600 body-font border-b-2 border-collapse">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src="img/logo.png" alt="TFC Logo" class="w-40 text-white p-2 wow flipInX">
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html">Home</a>
+          <a class="mr-5 hover:text-gray-900 wow flipInX bg-yellow-300 px-5 py-2 rounded-2xl text-black" data-wow-delay="0.25s">Events</a>
+          <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html#about">About Us</a>
+          <a class="mr-5 hover:text-gray-900 wow flipInX" href="index.html#contact">Contact Us</a>
+        </nav>
+        <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button> -->
       </div>
-      <div class="flex justify-center -m-4 wow fadeInUp" id="upcoming-events">
-        <div
-          class="max-w-2xl mt-10 mx-auto overflow-hidden bg-white rounded-lg shadow-md hover:shadow-lg dark:bg-gray-800">
-          <img class="object-cover w-full h-64" src="events/hero.png" alt="Article">
-          <div class="p-6">
-            <div>
-              <span class="text-xs font-medium text-yellow-600 uppercase dark:text-blue-400">Latest Event</span>
-              <a href="#"
-                class="block mt-2 text-2xl font-semibold text-gray-800 dark:text-white hover:text-gray-600 hover:underline">The
-                Essentials</a>
-              <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">The Essentials is a series of events well-curated
-                for those who want to start their journey in tech. The events will be a perfect blend of learning and
-                hands-on with constant mentor support helping everyone explore and grow simultaneously.</p>
-              <a class="text-yellow-500 inline-flex items-center mt-2 md:mb-2 lg:mb-0"
-                href="https://bit.ly/thfcEssentials">Register Now
-                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+    </header>
+  
+    <!-- <div class="max-w-2xl mt-10 mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+            <img class="object-cover w-full h-64" src="events/hero.png" alt="Article">
+  
+            <div class="p-6">
+                <div>
+                    <span class="text-xs font-medium text-yellow-600 uppercase dark:text-blue-400">Latest Event</span>
+                    <a href="#" class="block mt-2 text-2xl font-semibold text-gray-800 dark:text-white hover:text-gray-600 hover:underline">The Essentials</a>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie parturient et sem ipsum volutpat vel. Natoque sem et aliquam mauris egestas quam volutpat viverra. In pretium nec senectus erat. Et malesuada lobortis.</p>
+                    <a class="text-yellow-500 inline-flex items-center mt-2 md:mb-2 lg:mb-0">Register Now
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+  
+                <div class="mt-4">
+                    <div class="flex items-center">
+                        <div class="flex items-center">
+                            <img class="object-cover h-10 rounded-full" src="img/execom/Rijfas.jpg" alt="Avatar">
+                            <a href="#" class="mx-2 font-semibold text-gray-700 dark:text-gray-200">Rijfas</a>
+                        </div>
+                        <span class="mx-1 text-xs text-gray-600 dark:text-gray-300">21 SEP 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+  
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20 wow fadeInLeft">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Ongoing Events</h1>
+            <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+          </div>
+        </div>
+        <div class="flex justify-center -m-4 wow fadeInUp" id="upcoming-events">
+          <div
+            class="max-w-2xl mt-10 mx-auto overflow-hidden bg-white rounded-lg shadow-md hover:shadow-lg dark:bg-gray-800">
+            <img class="object-cover w-full h-64" src="events/hero.png" alt="Article">
+            <div class="p-6">
+              <div>
+                <span class="text-xs font-medium text-yellow-600 uppercase dark:text-blue-400">Latest Event</span>
+                <a href="#"
+                  class="block mt-2 text-2xl font-semibold text-gray-800 dark:text-white hover:text-gray-600 hover:underline">The
+                  Essentials</a>
+                <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">The Essentials is a series of events well-curated
+                  for those who want to start their journey in tech. The events will be a perfect blend of learning and
+                  hands-on with constant mentor support helping everyone explore and grow simultaneously.</p>
+                <a class="text-yellow-500 inline-flex items-center mt-2 md:mb-2 lg:mb-0"
+                  href="https://bit.ly/thfcEssentials">Register Now
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap w-full mb-20">
-        <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Learning Programs</h1>
-          <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+    </section>
+  
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Learning Programs</h1>
+            <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+          </div>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">Learning programs help students to learn with effective
+            mentorship support
+            These programs focus on students who are interested in learning technology and make them confident to find
+            their own passion in tech.</p>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">Learning programs help students to learn with effective
-          mentorship support
-          These programs focus on students who are interested in learning technology and make them confident to find
-          their own passion in tech.</p>
-      </div>
-      <div class="flex md:justify-evenly justify-center flex-wrap items-stretch -m-4" id="learning-programs">
-        <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap w-full mb-20">
-        <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Boot Camps</h1>
-          <div class="h-1 w-20 bg-yellow-500 rounded"></div>
-        </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">Bootcamps help students to get exposed to a new skill
-          developing environment where they learn build and collaborate to build a project in a short period of time
-          with greater learning experiences.</p>
-      </div>
-      <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="bootcamps">
-        <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+        <div class="flex md:justify-evenly justify-center flex-wrap items-stretch -m-4" id="learning-programs">
+          <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap w-full mb-20">
-        <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Community Events</h1>
-          <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+    </section>
+  
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Boot Camps</h1>
+            <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+          </div>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">Bootcamps help students to get exposed to a new skill
+            developing environment where they learn build and collaborate to build a project in a short period of time
+            with greater learning experiences.</p>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">The community events gather the community members
-          together where they play fun games,share their ideas and build bonds with each other.</p>
-      </div>
-      <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="community-events">
-        <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-wrap w-full mb-20">
-        <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Achievements</h1>
-          <div class="h-1 w-20 bg-yellow-500 rounded"></div>
-        </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">A sneak peek into achievements 
-          of TinkerHub Farook College campus community members.</p>
-      </div>
-      <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="achievements">
-        <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+        <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="bootcamps">
+          <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <footer class="text-gray-600 body-font">
-    <div class="flex w-full justify-end pr-10">
-      <a class="text-yellow-500" href="#">Back to top
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
-        </svg>
-      </a>
-    </div>
-    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="img/logo.png" alt="TFC Logo" class="w-40 text-white p-2 ">
-      </a>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021
-        TinkerHub FC —
-        <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@rijfas</a>
-        <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@unnikrishnan</a>
-        <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@adilayyoob</a>
-      </p>
-      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-        <a class="text-gray-500" href="https://www.youtube.com/channel/UCfHpoBCfct0z0GU2azdfD7Q" target="_blank">
-          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1" viewBox="0 0 640 480" xml:space="preserve">
-            <g transform="matrix(1.94 0 0 1.94 319.96 239.79)" id="XMLID_823_">
-              <path
-                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(107,114,128); fill-rule: nonzero; opacity: 1;"
-                transform=" translate(-155, -155)"
-                d="M 297.917 64.645 c -11.19 -13.302 -31.85 -18.728 -71.306 -18.728 H 83.386 c -40.359 0 -61.369 5.776 -72.517 19.938 C 0 79.663 0 100.008 0 128.166 v 53.669 c 0 54.551 12.896 82.248 83.386 82.248 h 143.226 c 34.216 0 53.176 -4.788 65.442 -16.527 C 304.633 235.518 310 215.863 310 181.835 v -53.669 C 310 98.471 309.159 78.006 297.917 64.645 z M 199.021 162.41 l -65.038 33.991 c -1.454 0.76 -3.044 1.137 -4.632 1.137 c -1.798 0 -3.592 -0.484 -5.181 -1.446 c -2.992 -1.813 -4.819 -5.056 -4.819 -8.554 v -67.764 c 0 -3.492 1.822 -6.732 4.808 -8.546 c 2.987 -1.814 6.702 -1.938 9.801 -0.328 l 65.038 33.772 c 3.309 1.718 5.387 5.134 5.392 8.861 C 204.394 157.263 202.325 160.684 199.021 162.41 z"
-                stroke-linecap="round" />
-            </g>
+    </section>
+  
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Community Events</h1>
+            <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+          </div>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">The community events gather the community members
+            together where they play fun games,share their ideas and build bonds with each other.</p>
+        </div>
+        <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="community-events">
+          <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0 wow fadeInLeft">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Achievements</h1>
+            <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+          </div>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500 wow fadeInRight">A sneak peek into achievements 
+            of TinkerHub Farook College campus community members.</p>
+        </div>
+        <div class="flex md:justify-evenly justify-center flex-wrap items-stretch  -m-4" id="achievements">
+          <div class="flex justify-center mt-5" id="loader"><img src="img/loading.gif" alt="loading" class="w-5 h-5">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="text-gray-600 body-font">
+      <div class="flex w-full justify-end pr-10">
+        <a class="text-yellow-500" href="#">Back to top
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
           </svg>
         </a>
-        <a class="ml-3 text-gray-500" href="https://github.com/orgs/TinkerHub-Farook-College/" target="_blank">
-          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1" viewBox="0 0 640 480" xml:space="preserve">
-            <g transform="matrix(20.19 0 0 20.19 319.87 239.88)">
-              <path
-                style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(107,114,128); fill-rule: nonzero; opacity: 1;"
-                transform=" translate(-12, -12)"
-                d="M 12 0.297 c -6.63 0 -12 5.373 -12 12 c 0 5.303 3.438 9.8 8.205 11.385 c 0.6 0.113 0.82 -0.258 0.82 -0.577 c 0 -0.285 -0.01 -1.04 -0.015 -2.04 c -3.338 0.724 -4.042 -1.61 -4.042 -1.61 C 4.422 18.07 3.633 17.7 3.633 17.7 c -1.087 -0.744 0.084 -0.729 0.084 -0.729 c 1.205 0.084 1.838 1.236 1.838 1.236 c 1.07 1.835 2.809 1.305 3.495 0.998 c 0.108 -0.776 0.417 -1.305 0.76 -1.605 c -2.665 -0.3 -5.466 -1.332 -5.466 -5.93 c 0 -1.31 0.465 -2.38 1.235 -3.22 c -0.135 -0.303 -0.54 -1.523 0.105 -3.176 c 0 0 1.005 -0.322 3.3 1.23 c 0.96 -0.267 1.98 -0.399 3 -0.405 c 1.02 0.006 2.04 0.138 3 0.405 c 2.28 -1.552 3.285 -1.23 3.285 -1.23 c 0.645 1.653 0.24 2.873 0.12 3.176 c 0.765 0.84 1.23 1.91 1.23 3.22 c 0 4.61 -2.805 5.625 -5.475 5.92 c 0.42 0.36 0.81 1.096 0.81 2.22 c 0 1.606 -0.015 2.896 -0.015 3.286 c 0 0.315 0.21 0.69 0.825 0.57 C 20.565 22.092 24 17.592 24 12.297 c 0 -6.627 -5.373 -12 -12 -12"
-                stroke-linecap="round" />
-            </g>
-          </svg>
+      </div>
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src="img/logo.png" alt="TFC Logo" class="w-40 text-white p-2 ">
         </a>
-        <a class="ml-3 text-gray-500" href="https://www.instagram.com/tinkerhub_fc/" target="_blank">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            class="w-5 h-5" viewBox="0 0 24 24">
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-          </svg>
-        </a>
-        <a class="ml-3 text-gray-500" href="https://www.linkedin.com/company/tinkerhub-fc/" target="_blank">
-          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
-            class="w-5 h-5" viewBox="0 0 24 24">
-            <path stroke="none"
-              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-            <circle cx="4" cy="4" r="2" stroke="none"></circle>
-          </svg>
-        </a>
-      </span>
-    </div>
-  </footer>
-  <script src="js/main.js"></script>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021
+          TinkerHub FC — Made with <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline text-red-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+          </svg> by 
+          <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@rijfas</a>
+          <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@unnikrishnan</a>
+          <a href="#" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@adilayyoob</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500" href="https://www.youtube.com/channel/UCfHpoBCfct0z0GU2azdfD7Q" target="_blank">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1" viewBox="0 0 640 480" xml:space="preserve">
+              <g transform="matrix(1.94 0 0 1.94 319.96 239.79)" id="XMLID_823_">
+                <path
+                  style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(107,114,128); fill-rule: nonzero; opacity: 1;"
+                  transform=" translate(-155, -155)"
+                  d="M 297.917 64.645 c -11.19 -13.302 -31.85 -18.728 -71.306 -18.728 H 83.386 c -40.359 0 -61.369 5.776 -72.517 19.938 C 0 79.663 0 100.008 0 128.166 v 53.669 c 0 54.551 12.896 82.248 83.386 82.248 h 143.226 c 34.216 0 53.176 -4.788 65.442 -16.527 C 304.633 235.518 310 215.863 310 181.835 v -53.669 C 310 98.471 309.159 78.006 297.917 64.645 z M 199.021 162.41 l -65.038 33.991 c -1.454 0.76 -3.044 1.137 -4.632 1.137 c -1.798 0 -3.592 -0.484 -5.181 -1.446 c -2.992 -1.813 -4.819 -5.056 -4.819 -8.554 v -67.764 c 0 -3.492 1.822 -6.732 4.808 -8.546 c 2.987 -1.814 6.702 -1.938 9.801 -0.328 l 65.038 33.772 c 3.309 1.718 5.387 5.134 5.392 8.861 C 204.394 157.263 202.325 160.684 199.021 162.41 z"
+                  stroke-linecap="round" />
+              </g>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="https://github.com/orgs/TinkerHub-Farook-College/" target="_blank">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1" viewBox="0 0 640 480" xml:space="preserve">
+              <g transform="matrix(20.19 0 0 20.19 319.87 239.88)">
+                <path
+                  style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(107,114,128); fill-rule: nonzero; opacity: 1;"
+                  transform=" translate(-12, -12)"
+                  d="M 12 0.297 c -6.63 0 -12 5.373 -12 12 c 0 5.303 3.438 9.8 8.205 11.385 c 0.6 0.113 0.82 -0.258 0.82 -0.577 c 0 -0.285 -0.01 -1.04 -0.015 -2.04 c -3.338 0.724 -4.042 -1.61 -4.042 -1.61 C 4.422 18.07 3.633 17.7 3.633 17.7 c -1.087 -0.744 0.084 -0.729 0.084 -0.729 c 1.205 0.084 1.838 1.236 1.838 1.236 c 1.07 1.835 2.809 1.305 3.495 0.998 c 0.108 -0.776 0.417 -1.305 0.76 -1.605 c -2.665 -0.3 -5.466 -1.332 -5.466 -5.93 c 0 -1.31 0.465 -2.38 1.235 -3.22 c -0.135 -0.303 -0.54 -1.523 0.105 -3.176 c 0 0 1.005 -0.322 3.3 1.23 c 0.96 -0.267 1.98 -0.399 3 -0.405 c 1.02 0.006 2.04 0.138 3 0.405 c 2.28 -1.552 3.285 -1.23 3.285 -1.23 c 0.645 1.653 0.24 2.873 0.12 3.176 c 0.765 0.84 1.23 1.91 1.23 3.22 c 0 4.61 -2.805 5.625 -5.475 5.92 c 0.42 0.36 0.81 1.096 0.81 2.22 c 0 1.606 -0.015 2.896 -0.015 3.286 c 0 0.315 0.21 0.69 0.825 0.57 C 20.565 22.092 24 17.592 24 12.297 c 0 -6.627 -5.373 -12 -12 -12"
+                  stroke-linecap="round" />
+              </g>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="https://www.instagram.com/tinkerhub_fc/" target="_blank">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="https://www.linkedin.com/company/tinkerhub-fc/" target="_blank">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </main>
   <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
+  <script src="js/pre-loader.js"></script>
+  <script src="js/main.min.js"></script>
+
 </body>
 
 </html>

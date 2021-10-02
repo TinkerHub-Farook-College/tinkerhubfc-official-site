@@ -4,3 +4,88 @@
 html {
   scroll-behavior: smooth;
 }
+.preloader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cyan {
+  animation: animate-logo-left 2s ease-in-out;
+}
+
+#blue {
+  animation: animate-logo-opacity 4s ease-in-out;
+}
+
+#yellow {
+  animation: animate-logo-left 3s ease-in-out;
+}
+
+#red {
+  animation: animate-logo-left 2s ease-in-out;
+}
+
+#light-green {
+  animation: animate-logo-bottom 1.5s ease-in-out;
+}
+
+#dark-green {
+  animation: animate-logo-bottom 2s ease-in-out;
+}
+
+#tinkerhub-logo {
+  animation: animate-logo-top 2s ease-in-out;
+}
+
+#campus-name {
+  animation: animate-logo-right 3s ease-in-out;
+}
+
+@keyframes animate-logo-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes animate-logo-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes animate-logo-top {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes animate-logo-bottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes animate-logo-opacity {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
