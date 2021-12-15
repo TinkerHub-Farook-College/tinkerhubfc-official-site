@@ -1,160 +1,200 @@
 {
-    "upcoming":[
-
-    ],
-    "learning_programs":[
-        {
-            "image": "event_1.webp",
-            "date" : "12/09/2021",
-            "title" : "Intro to TinkerHub",
-            "description" : "The main agenda of this program was to give a basic idea about TinkerHub and our future plans",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_3.webp",
-            "date" : "04/06/2021",
-            "title" : "Build From Home Experience Sharing",
-            "description" : "BFH changed us a lot. It changed the way we look at tech. The experience shared by all the members participated in the program was an eye opener to all beginners out there. ",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_5.webp",
-            "date" : "12/06/2021",
-            "title" : "Git/GitHub Workshop",
-            "description" : "From this workshop we aimed to give a brief idea on what Git and GitHub is and how it works",
-            "more_info" : "https://youtu.be/4grkROK0Mro"
-        },
-        {
-            "image": "event_9.webp",
-            "date" : "08/08/2021",
-            "title" : "WIT Orientation Program)",
-            "description" : "Women In Tech aka WIT is a girls only platform which recently conducted a program in collaboration with TinkerHub KMEA. The main objective for this event was to make aware of every girls in our community what WIT is and make them aware of the ocean of opportunities in tech especially for girls   ",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_10.webp",
-            "date" : "12/08/2021",
-            "title" : "Intro to mon.school",
-            "description" : "A small event to introduce mon.school platform to our community, also to give an introduction to the course Joy of programming and a bridge for TinkerHub's code-a-pookkalam event",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_13.webp",
-            "date" : "29/08/2021",
-            "title" : "Intro to JAVA OOP",
-            "description" : "This event mainly focuses on giving a basic idea on Java OOPS concepts",
-            "more_info" : "https://youtu.be/7SP8Pqhxg_Q"
-        },
-        {
-            "image": "event_14.webp",
-            "date" : "30/08/2021",
-            "title" : "Project Orientation",
-            "description" : "This is an orientation session for students who are going to do their project. This session aims to give a proper idea on what technologies they can use for their project",
-            "more_info" : "https://youtu.be/X5naSxtFT10"
-        },
-        {
-            "image": "event_17.webp",
-            "date" : "19/09/2021",
-            "title" : "Introduction to Linkedin",
-            "description" : "The idea of this session was to give a basic idea about LinkedIn and how it will be useful for our career. This session was handled by Kavya P (Outreach Co-Lead, TinkerHub FC)",
-            "more_info" : "https://www.youtube.com/watch?v=fk3h85p29Ec"
-        }
-    ],
-    "bootcamps":[
-        {
-            "image": "event_6.webp",
-            "date" : "14/05/2021",
-            "title" : "Python KickStart",
-            "description" : "Python Kickstart was our first major series conducted. Main agenda of this program was to introduce python programming for absolute beginners This program lasted for about 1 month.",
-            "more_info" : "https://www.youtube.com/playlist?list=PLMcXnpz61pA7AzRC7x_u7aBIj4EIFOT7z"
-        },
-        {
-            "image": "event_7.webp",
-            "date" : "08/08/2021",
-            "title" : "C Programming revision",
-            "description" : "A series to get familiar in C programming for bio students, hands on live sessions completed with 20+ hours",
-            "more_info" : "https://www.youtube.com/playlist?list=PLMcXnpz61pA55P8OdzQVjDZE2w12ARkTF"
-        },
-        {
-            "image": "event_16.webp",
-            "date" : "09/09/2021",
-            "title" : "Introduction to UI/UX",
-            "description" : "This session is mainly intended to give a breif idea on the UI/UX and also to introduce the members of our community to the imperceptible possibilities in the UI/UX field. This session was handled by Finu Muhammed Shaheem (KMCT Campus Lead | Microsoft student ambassador)",
-            "more_info" : "https://youtu.be/3Ih09S6G2Zg"
-        },
-        {
-            "image": "event_18.webp",
-            "date" : "18/09/2021",
-            "title" : "Essentials - Getting Started || ES-00",
-            "description" : "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. This session was a stepping stone for the upcoming sessions. Today we started off by giving a basic idea on web development and its components.",
-            "more_info" : "https://www.youtube.com/watch?v=v4ejq0iejEw"
-        },
-        {
-            "image": "event_19.webp",
-            "date" : "20/09/2021",
-            "title" : "Essentials - Introduction To HTML || ES-01",
-            "description" : "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to HTML.",
-            "more_info" : "https://youtu.be/-gh6rSVYueg"
-        }
-    ],
-    "community_events":[
-        {
-            "image": "event_4.webp",
-            "date" : "30/05/2021",
-            "title" : "Clueminati",
-            "description" : "Clueminati was a virtual treasure hunt conducted mainly to get to know each other. ",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_8.webp",
-            "date" : "12/09/2021",
-            "title" : "Community Connect #1",
-            "description" : "Community Connect #1 was one of the major program conducted inside our community. We wanted to introduce what TinkerHub is ,how Discord works and a small talk about campus council. ",
-            "more_info" : "https://youtu.be/JoD6D7NlUuU"
-        },
-        {
-            "image": "event_12.webp",
-            "date" : "07/08/2021",
-            "title" : "Tech Tips E01",
-            "description" : "Tech Tips is discord series where small tech podikkaikal is introduced. E01 was conducted by Rijfas. He introduced us to some small tips and tricks which will make our lives more easier while using VS Code.",
-            "more_info" : "#"
-        }, 
-        {
-            "image": "event_15.webp",
-            "date" : "12/09/2021",
-            "title" : "Tech Tips E02",
-            "description" : "E02 was conducted by Adil Ayyoob. Some simple tips and tricks which will make our smartphone usage much easier.",
-            "more_info" : "#"
-        }
-    ],
-    "achievements":[
-        {
-            "image": "event_11.webp",
-            "date" : "13/08/2021",
-            "title" : "Code-A-Pookalam",
-            "description" : "Code-A-Pookalam is an upcoming event in TinkerHub in collaboration with Mon School. Mon School is a not-for-profit online platform for learning programming. More details of the program is yet to come. But the idea is we need to code and create a pookalam using the Joy library created by Mon School.",
-            "more_info" : "#"
-        },
-        {
-            "image": "SHN_WIN_1.webp",
-            "date" : "24/07/2021",
-            "title" : "Saturday Hack Night #1",
-            "description" : "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
-            "more_info" : "#"
-        },
-        {
-            "image": "event_2.webp",
-            "date" : "25/05/2021",
-            "title" : "Build From Home",
-            "description" : "Build From Home aka BFH was the very first program that we participated in TinkerHub Community. It longed for about 10 days. 5 teams participated from our community and 4 projects was accepted. ",
-            "more_info" : "#"
-        },
-        {
-            "image": "SHN_WIN_2.webp",
-            "date" : "24/07/2021",
-            "title" : "Saturday Hack Night #2",
-            "description" : "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
-            "more_info" : "#"
-        }
-    ]
+  "upcoming": [],
+  "learning_programs": [
+    {
+      "image": "event_1.webp",
+      "date": "12/09/2021",
+      "title": "Intro to TinkerHub",
+      "description": "The main agenda of this program was to give a basic idea about TinkerHub and our future plans",
+      "more_info": "#"
+    },
+    {
+      "image": "event_3.webp",
+      "date": "04/06/2021",
+      "title": "Build From Home Experience Sharing",
+      "description": "BFH changed us a lot. It changed the way we look at tech. The experience shared by all the members participated in the program was an eye opener to all beginners out there. ",
+      "more_info": "#"
+    },
+    {
+      "image": "event_5.webp",
+      "date": "12/06/2021",
+      "title": "Git/GitHub Workshop",
+      "description": "From this workshop we aimed to give a brief idea on what Git and GitHub is and how it works",
+      "more_info": "https://youtu.be/4grkROK0Mro"
+    },
+    {
+      "image": "event_9.webp",
+      "date": "08/08/2021",
+      "title": "WIT Orientation Program)",
+      "description": "Women In Tech aka WIT is a girls only platform which recently conducted a program in collaboration with TinkerHub KMEA. The main objective for this event was to make aware of every girls in our community what WIT is and make them aware of the ocean of opportunities in tech especially for girls   ",
+      "more_info": "#"
+    },
+    {
+      "image": "event_10.webp",
+      "date": "12/08/2021",
+      "title": "Intro to mon.school",
+      "description": "A small event to introduce mon.school platform to our community, also to give an introduction to the course Joy of programming and a bridge for TinkerHub's code-a-pookkalam event",
+      "more_info": "#"
+    },
+    {
+      "image": "event_13.webp",
+      "date": "29/08/2021",
+      "title": "Intro to JAVA OOP",
+      "description": "This event mainly focuses on giving a basic idea on Java OOPS concepts",
+      "more_info": "https://youtu.be/7SP8Pqhxg_Q"
+    },
+    {
+      "image": "event_14.webp",
+      "date": "30/08/2021",
+      "title": "Project Orientation",
+      "description": "This is an orientation session for students who are going to do their project. This session aims to give a proper idea on what technologies they can use for their project",
+      "more_info": "https://youtu.be/X5naSxtFT10"
+    },
+    {
+      "image": "event_17.webp",
+      "date": "19/09/2021",
+      "title": "Introduction to Linkedin",
+      "description": "The idea of this session was to give a basic idea about LinkedIn and how it will be useful for our career. This session was handled by Kavya P (Outreach Co-Lead, TinkerHub FC)",
+      "more_info": "https://www.youtube.com/watch?v=fk3h85p29Ec"
+    },
+    {
+      "image": "essentials.webp",
+      "date": "18/09/2021",
+      "title": "thEssentials",
+      "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development",
+      "more_info": "https://www.youtube.com/playlist?list=PLMcXnpz61pA48xdzhA8lsR8ICpMwXKwrl"
+    },
+    {
+      "image": "lt.webp",
+      "date": "12/11/2021",
+      "title": "Learn Together 2021",
+      "description": "Tinkerhub FC is back with yet another event but with a twist. LEARN TOGETHER is that perfect opportunity you all have been waiting for.",
+      "more_info": "https://www.youtube.com/playlist?list=PLMcXnpz61pA6xi9uX_yk1qCTBgg--aIao"
+    }
+  ],
+  "bootcamps": [
+    {
+      "image": "event_6.webp",
+      "date": "14/05/2021",
+      "title": "Python KickStart",
+      "description": "Python Kickstart was our first major series conducted. Main agenda of this program was to introduce python programming for absolute beginners This program lasted for about 1 month.",
+      "more_info": "https://www.youtube.com/playlist?list=PLMcXnpz61pA7AzRC7x_u7aBIj4EIFOT7z"
+    },
+    {
+      "image": "event_7.webp",
+      "date": "08/08/2021",
+      "title": "C Programming revision",
+      "description": "A series to get familiar in C programming for bio students, hands on live sessions completed with 20+ hours",
+      "more_info": "https://www.youtube.com/playlist?list=PLMcXnpz61pA55P8OdzQVjDZE2w12ARkTF"
+    },
+    {
+      "image": "event_16.webp",
+      "date": "09/09/2021",
+      "title": "Introduction to UI/UX",
+      "description": "This session is mainly intended to give a breif idea on the UI/UX and also to introduce the members of our community to the imperceptible possibilities in the UI/UX field. This session was handled by Finu Muhammed Shaheem (KMCT Campus Lead | Microsoft student ambassador)",
+      "more_info": "https://youtu.be/3Ih09S6G2Zg"
+    },
+    {
+      "image": "event_18.webp",
+      "date": "18/09/2021",
+      "title": "Essentials - Getting Started || ES-00",
+      "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. This session was a stepping stone for the upcoming sessions. Today we started off by giving a basic idea on web development and its components.",
+      "more_info": "https://www.youtube.com/watch?v=v4ejq0iejEw"
+    },
+    {
+      "image": "event_19.webp",
+      "date": "20/09/2021",
+      "title": "Essentials - Introduction To HTML || ES-01",
+      "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to HTML.",
+      "more_info": "https://www.youtube.com/watch?v=-gh6rSVYueg&list=PLMcXnpz61pA48xdzhA8lsR8ICpMwXKwrl&index=2"
+    },
+    {
+      "image": "event_20.webp",
+      "date": "08/10/2021",
+      "title": "Essentials - Introduction To CSS || ES-05",
+      "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to CSS.",
+      "more_info": "https://www.youtube.com/watch?v=E_RxhATwEw4&list=PLMcXnpz61pA48xdzhA8lsR8ICpMwXKwrl&index=6"
+    },
+    {
+      "image": "event_21.webp",
+      "date": "08/10/2021",
+      "title": "Essentials - Introduction To JS || ES-09",
+      "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to JS.",
+      "more_info": "https://www.youtube.com/watch?v=-gh6rSVYueg&list=PLMcXnpz61pA48xdzhA8lsR8ICpMwXKwrl&index=10"
+    }
+  ],
+  "community_events": [
+    {
+      "image": "event_4.webp",
+      "date": "30/05/2021",
+      "title": "Clueminati",
+      "description": "Clueminati was a virtual treasure hunt conducted mainly to get to know each other. ",
+      "more_info": "#"
+    },
+    {
+      "image": "event_8.webp",
+      "date": "12/09/2021",
+      "title": "Community Connect #1",
+      "description": "Community Connect #1 was one of the major program conducted inside our community. We wanted to introduce what TinkerHub is ,how Discord works and a small talk about campus council. ",
+      "more_info": "https://youtu.be/JoD6D7NlUuU"
+    },
+    {
+      "image": "event_12.webp",
+      "date": "07/08/2021",
+      "title": "Tech Tips E01",
+      "description": "Tech Tips is discord series where small tech podikkaikal is introduced. E01 was conducted by Rijfas. He introduced us to some small tips and tricks which will make our lives more easier while using VS Code.",
+      "more_info": "#"
+    },
+    {
+      "image": "event_15.webp",
+      "date": "12/09/2021",
+      "title": "Tech Tips E02",
+      "description": "E02 was conducted by Adil Ayyoob. Some simple tips and tricks which will make our smartphone usage much easier.",
+      "more_info": "#"
+    },
+    {
+      "image": "event_22.webp",
+      "date": "15/10/2021",
+      "title": "Community Connect #2",
+      "description": "Community Connect #2 was one of the major program conducted inside our community. We wanted to introduce what TinkerHub is ,how Discord works and a small talk about campus council. ",
+      "more_info": "https://www.youtube.com/watch?v=luc6_vTIlyY"
+    },
+    {
+      "image": "inaugration.webp",
+      "date": "09/12/2021",
+      "title": "Official Inaugration",
+      "description": "It's with great happiness we invite everyone to our inaugural ceremony INCEPTION'21 on 9/12/21 at 2.00 pm in AVT hall",
+      "more_info": "#"
+    }
+  ],
+  "achievements": [
+    {
+      "image": "event_11.webp",
+      "date": "13/08/2021",
+      "title": "Code-A-Pookalam",
+      "description": "Code-A-Pookalam is an upcoming event in TinkerHub in collaboration with Mon School. Mon School is a not-for-profit online platform for learning programming. More details of the program is yet to come. But the idea is we need to code and create a pookalam using the Joy library created by Mon School.",
+      "more_info": "#"
+    },
+    {
+      "image": "SHN_WIN_1.webp",
+      "date": "24/07/2021",
+      "title": "Saturday Hack Night #1",
+      "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
+      "more_info": "#"
+    },
+    {
+      "image": "event_2.webp",
+      "date": "25/05/2021",
+      "title": "Build From Home",
+      "description": "Build From Home aka BFH was the very first program that we participated in TinkerHub Community. It longed for about 10 days. 5 teams participated from our community and 4 projects was accepted. ",
+      "more_info": "#"
+    },
+    {
+      "image": "SHN_WIN_2.webp",
+      "date": "24/07/2021",
+      "title": "Saturday Hack Night #2",
+      "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
+      "more_info": "#"
+    }
+  ]
 }
