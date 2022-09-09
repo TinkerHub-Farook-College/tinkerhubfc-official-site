@@ -70,6 +70,20 @@
       "title": "Learn Together 2021",
       "description": "Tinkerhub FC is back with yet another event but with a twist. LEARN TOGETHER is that perfect opportunity you all have been waiting for.",
       "more_info": "https://www.youtube.com/playlist?list=PLMcXnpz61pA6xi9uX_yk1qCTBgg--aIao"
+    },
+    {
+      "image": "git2.webp",
+      "date": "17/02/2022",
+      "title": "Git/GitHub Workshop 2.0",
+      "description": "This workshop handled by Rijfas aimed to give a brief idea on what Git and GitHub is and how it works.",
+      "more_info": "#"
+    },
+    {
+      "image": "DS-THFC.webp",
+      "date": "07/04/2022",
+      "title": "Digital Suite - Workshop on 10 incredible digital tools",
+      "description": "Workshop on 10 incredible free digital tools that makes our tasks easy.The main aim was to improve digtal skills.",
+      "more_info": "https://youtube.com/playlist?list=PLMcXnpz61pA7lUNASvlPfv7iVVADkeVBD"
     }
   ],
   "bootcamps": [
@@ -121,6 +135,27 @@
       "title": "Essentials - Introduction To JS || ES-09",
       "description": "Essentials is a series of programs to familiarize our fellow tinkerers on front-end web development. The aim of today's session was to give an introduction to JS.",
       "more_info": "https://www.youtube.com/watch?v=-gh6rSVYueg&list=PLMcXnpz61pA48xdzhA8lsR8ICpMwXKwrl&index=10"
+    },
+    {
+      "image": "python2.0.webp",
+      "date": "17/01/2022",
+      "title": "Python Kickstart 2.0",
+      "description": "Python Kickstart 2.0 is a learning event conducted to introduce python programming for absolute beginners. Guided by Amjad and 3 other mentors Live sessions are handled by Rijfas.",
+      "more_info": "https://youtube.com/playlist?list=PLMcXnpz61pA5F3yxOCizhOmiO3yRmJDqY"
+    },
+    {
+      "image": "node.webp",
+      "date": "28/02/2022",
+      "title": "Knock to NodeJS",
+      "description": "This event was conducted for the purpose of familiarising our fellow tinkerers the backend development through nodeJS",
+      "more_info": "https://youtube.com/playlist?list=PLMcXnpz61pA5L4KroYlw8p52BQTm5uxh_"
+    },
+    {
+      "image": "webex.webp",
+      "date": "31/03/2022",
+      "title": "Webex",
+      "description": "A complete beginner friendly workshop conducted by WIT to get started with html css. The sessions were handled by Shada Fathima. Participants built a simple portfolio by the end of the event.",
+      "more_info": "#"
     }
   ],
   "community_events": [
@@ -164,7 +199,7 @@
       "date": "09/12/2021",
       "title": "Official Inaugration",
       "description": "It's with great happiness we invite everyone to our inaugural ceremony INCEPTION'21 on 9/12/21 at 2.00 pm in AVT hall",
-      "more_info": "#"
+      "more_info": "https://youtube.com/shorts/k3pWfGNhwwI?feature=share"
     },
     {
       "image": "CommunityConnect_3.webp",
@@ -172,7 +207,43 @@
       "title": "Community Connect #3",
       "description": "Community Connect #3 was conducted to introduce what TinkerHub is, how Discord works and a small game session to introduce TinkerHub for new members. ",
       "more_info": "https://www.youtube.com/watch?v=xvyRIdbbg0A"
+    },
+    {
+      "image": "wit2.webp",
+      "date": "23/01/2022",
+      "title": "WomenInTech - Orientation 2.0",
+      "description": "This event was conducted by WIT to make girls aware why Women in tech exists and to connect with the new members.",
+      "more_info": "#"
+    },
+    {
+      "image": "casual.webp",
+      "date": "16/02/2022",
+      "title": "Teaching yourself how to code",
+      "description": "A casual talk handled by Rijfas and Amjad on how coding works and the stages a programmer pass through.",
+      "more_info": "#"
+    },
+    {
+      "image": "cc4.webp",
+      "date": "09/03/2022",
+      "title": "Community Connect #4",
+      "description": "Community Connect #4 was conducted to introduce what TinkerHub is, how Discord works and a small game session.Main aim is to build connection between the community members.",
+      "more_info": "https://youtu.be/Y2-OFjfDGsM"
+    },
+    {
+      "image": "metaverse.webp",
+      "date": "08/06/2022",
+      "title": "Tech Talks",
+      "description": "Tech talk series is an event conducted twice in a month by a community member, the topics for these talks are selected by the presenters",
+      "more_info": "https://youtube.com/shorts/BytQ-E8DUE0?feature=share"
+    },
+    {
+      "image": "TheLateNightDevShowE02.webp",
+      "date": "18/06/2022",
+      "title": "The LateNight DevShow",
+      "description": "The Show happens once in a month .The fellow tinkerers could watch together their friend building amazing stuffs live.",
+      "more_info": "https://youtube.com/playlist?list=PLMcXnpz61pA64Z20uN6Njmvqg6HF5jZ7M"
     }
+
   ],
   "achievements": [
     {
@@ -185,7 +256,7 @@
     {
       "image": "SHN_WIN_1.webp",
       "date": "24/07/2021",
-      "title": "Saturday Hack Night #1",
+      "title": "Saturday Hack Night #1 Dialogueflow API",
       "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
       "more_info": "#"
     },
@@ -200,6 +271,27 @@
       "image": "SHN_WIN_2.webp",
       "date": "24/07/2021",
       "title": "Saturday Hack Night #2",
+      "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
+      "more_info": "#"
+    },
+    {
+      "image": "cocoder.webp",
+      "date": "21/02/2022",
+      "title": "Cocoder",
+      "description": "Cocoder was an event organised by TinkerHub. A team of 2 members built cool stuffs together.",
+      "more_info": "#"
+    },
+    {
+      "image": "SHN3.webp",
+      "date": "07/05/2022",
+      "title": "Saturday Hack Night #3 - Notion API",
+      "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
+      "more_info": "#"
+    },
+    {
+      "image": "SHN4.webp",
+      "date": "02/07/2022",
+      "title": "Saturday Hack Night #4 - Gmail API",
       "description": "Saturday Hack Night is a program conducted on the 1st and 3rd Saturdays of the month in our main TinkerHub discord server",
       "more_info": "#"
     }
